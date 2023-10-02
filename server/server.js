@@ -8,7 +8,7 @@ const db = require("./DataBase");
 app.use(express.json());
 app.use("/", auth);
 
-const serverStatr = () => {
+const serverStart = () => {
   try {
     app.listen(3333, () => {
       console.log("Server started on port 3333");
@@ -17,7 +17,7 @@ const serverStatr = () => {
     console.log(error);
   }
 };
-serverStatr();
+serverStart();
 /* const con = mysql.createConnection({
   host: "localhost",
   user: "root",
