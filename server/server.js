@@ -1,9 +1,23 @@
 const express = require("express");
 const app = express();
 const mysql = require("mysql");
+const auth = require("./routers/authRouter");
 
 const db = require("./DataBase");
 
+app.use(express.json());
+app.use("/", auth);
+
+const serverStatr = () => {
+  try {
+    app.listen(3333, () => {
+      console.log("Server started on port 3333");
+    });
+  } catch (error) {
+    console.log(error);
+  }
+};
+serverStatr();
 /* const con = mysql.createConnection({
   host: "localhost",
   user: "root",
@@ -16,13 +30,10 @@ const db = require("./DataBase");
   if (err) throw err;
   console.log("Connected!");
 }); */
-app.get("/", (req, res) => {
-  /* con.query("SELECT * FROM new_table", (err, result) => {
+/*app.get("/", (req, res) => {
+   con.query("SELECT * FROM new_table", (err, result) => {
     console.log(JSON.stringify(result));
     res.send(JSON.stringify(result));
-  }); */
+  }); 
 });
-
-app.listen(3333, () => {
-  console.log("Server started on port 3333");
-});
+*/

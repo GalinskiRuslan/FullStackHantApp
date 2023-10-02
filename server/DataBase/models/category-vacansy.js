@@ -21,7 +21,7 @@ const { Sequelize, Model, DataTypes } = require("sequelize");
 
 module.exports = function (sequelize) {
   return sequelize.define(
-    "category_vacansy",
+    "category",
     {
       id: {
         type: DataTypes.INTEGER,
@@ -36,6 +36,7 @@ module.exports = function (sequelize) {
     },
     {
       timestamps: false,
+      tableName: "category",
     }
   );
 };
