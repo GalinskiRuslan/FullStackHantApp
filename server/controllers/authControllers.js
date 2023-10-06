@@ -21,7 +21,7 @@ class authController {
       }
       if (validPassword) {
         const token = generateAccessToken(isUser.user_role);
-        return res.status(200).json({ token });
+        return res.status(200).json({ token, user: isUser });
       } else {
         return res.status(400).json("Неверные данные, повторите попытку");
       }
@@ -34,7 +34,6 @@ class authController {
       const { user_name, password, user_email } = req.body;
       const isUser = await findOneUser(user_email);
       if (isUser) {
-        console.log(isUser);
         return res
           .status(400)
           .json("Пользователь с таким email уже существует");
@@ -54,6 +53,15 @@ class authController {
           return res.status(200).json(data);
         }
       );
+    } catch (error) {
+      return res.status(400).json("Ошибка сервера " + error);
+    }
+  }
+  async checkIsAuth(req, res) {
+    try {
+      const token = req.headers.authorization.split(" ")[1];
+      const isUser = jwt.verify(token, "secretASS");
+      return res.status(200).json(true);
     } catch (error) {
       return res.status(400).json("Ошибка сервера " + error);
     }

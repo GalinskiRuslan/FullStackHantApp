@@ -2,11 +2,15 @@ const express = require("express");
 const app = express();
 const mysql = require("mysql");
 const auth = require("./routers/authRouter");
+const category = require("./routers/categoryRouter");
+const vacansy = require("./routers/vacansyRouter");
+const corse = require("cors");
 
 const db = require("./DataBase");
 
 app.use(express.json());
-app.use("/", auth);
+app.use(corse({ credentials: true, origin: "http://localhost:3001" }));
+app.use("/", auth, category, vacansy);
 
 const serverStart = () => {
   try {
@@ -18,22 +22,3 @@ const serverStart = () => {
   }
 };
 serverStart();
-/* const con = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "1234",
-  database: "new_schema2",
-  multipleStatements: true,
-}); */
-
-/* con.connect((err) => {
-  if (err) throw err;
-  console.log("Connected!");
-}); */
-/*app.get("/", (req, res) => {
-   con.query("SELECT * FROM new_table", (err, result) => {
-    console.log(JSON.stringify(result));
-    res.send(JSON.stringify(result));
-  }); 
-});
-*/
