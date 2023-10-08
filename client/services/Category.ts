@@ -7,4 +7,12 @@ export default class CategoryService {
   static async fetchAllCategory(): Promise<AxiosResponse<Category[]>> {
     return await $api.get<Category[]>("/category");
   }
+  static async saveNewCategory(
+    category_name: string
+  ): Promise<AxiosResponse<Category>> {
+    return await $api.post<Category>("/category", { category_name });
+  }
+  static async deleteCategory(id: number): Promise<AxiosResponse<Category>> {
+    return await $api.delete<Category>(`/category`, { data: { id } });
+  }
 }
