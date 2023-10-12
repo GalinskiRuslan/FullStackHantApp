@@ -1,0 +1,61 @@
+.tabsContainer {
+  max-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  padding: 30px 25px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  min-height: 800px;
+}
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+.items {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+.items_vacansy {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+.button_delete {
+  background-color: transparent;
+  border: 1px solid red;
+  padding: 6px;
+  border-radius: 6px;
+  color: red;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.button_delete:hover {
+  border: 1px solid #fff;
+  background-color: red;
+  color: #fff;
+  transition: 0.5s;
+}
+.editBtn {
+  max-width: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 40px;
+}

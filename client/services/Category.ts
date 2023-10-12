@@ -15,4 +15,10 @@ export default class CategoryService {
   static async deleteCategory(id: number): Promise<AxiosResponse<Category>> {
     return await $api.delete<Category>(`/category`, { data: { id } });
   }
+  static async changeCat(
+    id: number,
+    category_name: string
+  ): Promise<AxiosResponse<Category>> {
+    return await $api.put<Category>("/category", { id, category_name });
+  }
 }

@@ -1,13 +1,16 @@
 import { Category } from "@/models/Category";
 import { UserResponse } from "@/models/UserResponse";
+import { Vacansy } from "@/models/Vacansy";
 import AuthService from "@/services/AuthService";
 import CategoryService from "@/services/Category";
+import VacansyService from "@/services/Vacansy";
 import { makeAutoObservable } from "mobx";
 
 export default class Store {
   user = {} as UserResponse;
   isAuth = false;
   category: Category[] = [];
+  vacansy: Vacansy[] = [];
   constructor() {
     makeAutoObservable(this);
   }
@@ -19,6 +22,9 @@ export default class Store {
   }
   setCategory(category: Category[]) {
     this.category = category;
+  }
+  setVacansy(vacansy: Vacansy[]) {
+    this.vacansy = vacansy;
   }
   async login(user_email: string, password: string) {
     try {
@@ -71,6 +77,57 @@ export default class Store {
       CategoryService.deleteCategory(id);
       this.getAllCategory();
       return "Категория удалена";
+    } catch (error) {
+      return error;
+    }
+  }
+  async changeCategory(id: number, category_name: string) {
+    try {
+      const res = await CategoryService.changeCat(id, category_name);
+      this.getAllCategory();
+      return res.data;
+    } catch (error) {
+      return error;
+    }
+  }
+  async getAllVacansy() {
+    try {
+      const res = await VacansyService.getAllVacansy();
+      this.vacansy = res.data;
+    } catch (error) {
+      return error;
+    }
+  }
+  async addNewVacansy(
+    vacansy_name: string,
+    isActive: boolean,
+    description: string,
+    skills: string,
+    salary: number,
+    expresion: string,
+    categoryId: number
+  ) {
+    try {
+      console.log(isActive);
+
+      const res = await VacansyService.addNewVacansy(
+        vacansy_name,
+        isActive,
+        description,
+        skills,
+        salary,
+        expresion,
+        categoryId
+      );
+      this.getAllVacansy();
+    } catch (error) {
+      return error;
+    }
+  }
+  async changeActiveVacansy(id: number, isActive: boolean) {
+    try {
+      const res = await VacansyService.changeActiveVacansy(id, isActive);
+      this.getAllVacansy();
     } catch (error) {
       return error;
     }
