@@ -18,7 +18,7 @@ const Modal = ({ children, visible, setVisible }: Props) => {
         /*   document.body.style.overflow = "auto"; */
     }
     return (
-        <div className={rootClasses.join(" ")} onClick={() => setVisible(false)}>
+        <div style={{ height: '90vh' }} className={rootClasses.join(" ")} onClick={() => setVisible(false)}>
             <div className={cl.content} onClick={(event) => event.stopPropagation()}>
                 {children}
             </div>

@@ -1,3 +1,8 @@
+:root {
+  --main-bg-color: #fff;
+  --main-color: #044cb3;
+}
+
 * {
   margin: 0;
   padding: 0;

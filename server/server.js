@@ -9,7 +9,7 @@ const corse = require("cors");
 const db = require("./DataBase");
 
 app.use(express.json());
-app.use(corse({ credentials: true, origin: "http://localhost:3001" }));
+app.use(corse({ credentials: true, origin: "http://localhost:3000" }));
 app.use("/", auth, category, vacansy);
 
 const serverStart = () => {

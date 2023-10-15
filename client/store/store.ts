@@ -5,7 +5,11 @@ import AuthService from "@/services/AuthService";
 import CategoryService from "@/services/Category";
 import VacansyService from "@/services/Vacansy";
 import { makeAutoObservable } from "mobx";
+import { configure } from "mobx";
 
+configure({
+  enforceActions: "never",
+});
 export default class Store {
   user = {} as UserResponse;
   isAuth = false;
@@ -127,6 +131,32 @@ export default class Store {
   async changeActiveVacansy(id: number, isActive: boolean) {
     try {
       const res = await VacansyService.changeActiveVacansy(id, isActive);
+      this.getAllVacansy();
+    } catch (error) {
+      return error;
+    }
+  }
+  async changeVacansy(
+    id: number,
+    vacansy_name: string,
+    isActive: boolean,
+    description: string,
+    skills: string,
+    salary: number,
+    expresion: string,
+    categoryId: number
+  ) {
+    try {
+      const res = await VacansyService.changeVacansy(
+        id,
+        vacansy_name,
+        isActive,
+        description,
+        skills,
+        salary,
+        expresion,
+        categoryId
+      );
       this.getAllVacansy();
     } catch (error) {
       return error;

@@ -31,4 +31,25 @@ export default class VacansyService {
   ): Promise<AxiosResponse<Vacansy>> {
     return $api.put("/changeactivevacansy", { id, isActive });
   }
+  static async changeVacansy(
+    id: number,
+    vacansy_name: string,
+    isActive: boolean,
+    description: string,
+    skills: string,
+    salary: number,
+    expresion: string,
+    categoryId: number
+  ) {
+    return $api.put("/vacansy", {
+      id,
+      vacansy_name,
+      isActive,
+      description,
+      skills,
+      salary,
+      expresion,
+      categoryId,
+    });
+  }
 }
