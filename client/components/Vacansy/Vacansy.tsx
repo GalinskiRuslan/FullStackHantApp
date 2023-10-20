@@ -36,7 +36,23 @@ export const VacansyBlock = observer(() => {
 
     }, [store, vacansyModal])
 
-
+    const getFormatSum = (sum: any) => {
+        if (sum.length > 0) {
+            return sum.toString()
+                .split("")
+                .reverse()
+                .join("")
+                .match(/.{1,3}/g)
+                .map(function (item: any) {
+                    return item.split("").reverse().join("");
+                })
+                .reverse()
+                .join(" ")
+        }
+        else {
+            return "Не указана"
+        }
+    }
 
     return (
         <div>
@@ -56,7 +72,7 @@ export const VacansyBlock = observer(() => {
                     <span className="slider"></span>
                 </label>{item.isActive ? "Активна" : "Не активна"}</p>
                 <div> {item.description.length > 10 ? item.description.slice(0, 10) + "..." : item.description}</div>
-                <p>{item.salary}</p>
+                <p>{getFormatSum(item.salary)}</p>
                 <div style={{ display: 'flex', gap: '10px', justifyContent: 'flex-end' }}>
 
                     <button className={cl.editBtn} onClick={() => {
@@ -92,7 +108,7 @@ export const VacansyBlock = observer(() => {
                     </div>
                     <div>
                         <label>уровень зп</label><br />
-                        <input className={cl.input_text} type="text" value={vacansy.salary} onChange={(e) => setVacansy({ ...vacansy, salary: Number(e.target.value.replace(/\D/g, '')) })} />
+                        <input className={cl.input_text} type="text" value={getFormatSum(vacansy.salary)} onChange={(e) => setVacansy({ ...vacansy, salary: Number(e.target.value.replace(/\D/g, '')) })} />
                     </div>
                     <div>
                         <label>Опыт работы</label><br />
