@@ -9,6 +9,7 @@ const corse = require("cors");
 const db = require("./DataBase");
 
 app.use(express.json());
+app.use("/files", express.static("files"));
 app.use(corse({ credentials: true, origin: "http://localhost:3000" }));
 app.use("/", auth, category, vacansy);
 

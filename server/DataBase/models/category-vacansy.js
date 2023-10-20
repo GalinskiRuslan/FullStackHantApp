@@ -10,6 +10,9 @@ module.exports = function (sequelize) {
         autoIncrement: true,
         allowNull: false,
       },
+      imageSrc: {
+        type: DataTypes.STRING,
+      },
       category_name: {
         type: DataTypes.STRING,
         allowNull: false,

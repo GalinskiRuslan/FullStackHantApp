@@ -1,5 +1,6 @@
 const Router = require("express");
 const router = new Router();
+const upload = require("../middleware/upload");
 const vacansyCategoryController = require("../controllers/vacansyCategoryController");
 const authMiddleware = require("../middleware/authMiddleware");
 const roleMiddleware = require("../middleware/roleMiddleware");
@@ -11,12 +12,14 @@ router.get("/categoryOne", vacansyCategoryController.getOneCategory);
 router.post(
   "/category",
   roleMiddleware(["admin"]),
+  upload.single("imageSrc"),
   vacansyCategoryController.addCategory
 );
 
 router.put(
   "/category",
   roleMiddleware(["admin"]),
+  upload.single("imageSrc"),
   vacansyCategoryController.updateCategory
 );
 

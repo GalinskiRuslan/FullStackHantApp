@@ -62,14 +62,14 @@ export default class Store {
     try {
       const res = await CategoryService.fetchAllCategory();
       this.category = res.data;
-      console.log(res.data);
     } catch (error) {
       return error;
     }
   }
-  async saveNewCategory(category_name: string) {
+  async saveNewCategory(category_name: string, background_photo: File) {
     try {
-      CategoryService.saveNewCategory(category_name);
+      console.log(background_photo);
+      CategoryService.saveNewCategory(category_name, background_photo);
       this.getAllCategory();
       return "Категория добавлена";
     } catch (error) {
@@ -85,9 +85,17 @@ export default class Store {
       return error;
     }
   }
-  async changeCategory(id: number, category_name: string) {
+  async changeCategory(
+    id: number,
+    category_name: string,
+    background_photo: File
+  ) {
     try {
-      const res = await CategoryService.changeCat(id, category_name);
+      const res = await CategoryService.changeCat(
+        id,
+        category_name,
+        background_photo
+      );
       this.getAllCategory();
       return res.data;
     } catch (error) {

@@ -1,7 +1,7 @@
 const Sequelize = require("sequelize");
 
-const sequelize = new Sequelize("hunt", "root", "", {
-  port: 3308,
+const sequelize = new Sequelize("hunt", "root", "1234", {
+  port: 3306,
   host: "localhost",
   dialect: "mysql",
 });
@@ -54,10 +54,11 @@ const getOneCategory = async (id) => {
     return error;
   }
 };
-const addCategory = async (category_name) => {
+const addCategory = async (category_name, background_photo) => {
   try {
     const category = await CategoryVacansy.create({
       category_name: category_name,
+      imageSrc: background_photo,
     });
     return "Категория добавлена";
   } catch (error) {
@@ -74,10 +75,11 @@ const deleteCategory = async (id) => {
     return error;
   }
 };
-const cahngeCategory = async (id, category_name) => {
+const cahngeCategory = async (id, category_name, imageSrc) => {
   try {
+    console.log(id, category_name, imageSrc, '123124214251241');
     const category = await CategoryVacansy.update(
-      { category_name: category_name },
+      { category_name: category_name, imageSrc: imageSrc },
       { where: { id: id } }
     );
     return "Категория изменена";

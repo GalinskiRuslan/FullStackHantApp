@@ -100,12 +100,15 @@ export const VacansyBlock = observer(() => {
                     </div>
                     <label></label><br />
                     <select className={cl.input_select} onChange={(e) => {
+
                         setVacansy({ ...vacansy, categoryId: Number(e.target.value) })
-                    }}>
-                        {store.category.map((item, index) => <option value={item.id} key={index}>{item.category_name}</option>)}
+                    }}><option disabled selected> </option>
+                        {store.category.map((item, index) => <option selected={item.id == vacansy.categoryId ? true : false} value={item.id} key={index}>{item.category_name}</option>)}
                     </select><br />
-                    {<button className={cl.button_add} onClick={() => {
-                        vacansy.id != null ? store.changeVacansy(vacansy.id, vacansy.vacansy_name, vacansy.isActive, vacansy.description, vacansy.skills, vacansy.salary, vacansy.expresion, vacansy.categoryId) :
+                    <button className={cl.button_add} onClick={() => {
+                        vacansy.id != null ?
+                            store.changeVacansy(vacansy.id, vacansy.vacansy_name, vacansy.isActive, vacansy.description, vacansy.skills, vacansy.salary, vacansy.expresion, vacansy.categoryId)
+                            :
                             store.addNewVacansy(
                                 vacansy.vacansy_name,
                                 vacansy.isActive,
@@ -123,8 +126,9 @@ export const VacansyBlock = observer(() => {
                             salary: 0,
                             expresion: '',
                             categoryId: null,
-                        })
-                    }}>{vacansy.id != null ? "Изменить" : "Добавить"}</button>}
+                        });
+                        setVacansyModal(false);
+                    }}>{vacansy.id != null ? "Изменить" : "Добавить"}</button>
                 </form>
             </Modal>
         </div >

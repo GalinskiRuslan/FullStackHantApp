@@ -1,5 +1,5 @@
 .items {
-  display: flex;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
   margin: 10px 0;
@@ -43,4 +43,15 @@
   background-color: #fff;
   padding: 25px;
   border: 1px solid #ccc;
+}
+.tabletatle {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.img {
+  max-width: 80px;
+  max-height: 80px;
+}
+.img img {
+  width: 100%;
 }
