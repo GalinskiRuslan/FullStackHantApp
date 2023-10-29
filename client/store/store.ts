@@ -49,6 +49,18 @@ export default class Store {
       console.log(error);
     }
   }
+  async registration(user_name: string, password: string, user_email: string) {
+    try {
+      const res = await AuthService.registration(
+        user_name,
+        password,
+        user_email
+      );
+      return res;
+    } catch (e) {
+      console.log(e);
+    }
+  }
   async logout() {
     try {
       this.setAuth(false);

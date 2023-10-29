@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import React, { createContext } from 'react'
 import Store from "../store/store";
+import Link from 'next/link';
 
 
 export default function Layout({ children }: { children: React.ReactNode }) {
@@ -15,7 +16,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <header>HELLO !</header>
+        <header><Link href='/registration'>Register</Link></header>
         <main className='container'>
             {children}
         </main>

@@ -1,10 +1,15 @@
 const Sequelize = require("sequelize");
 
-const sequelize = new Sequelize("hunt", "root", "1234", {
-  port: 3306,
-  host: "localhost",
-  dialect: "mysql",
-});
+const sequelize = new Sequelize(
+  "galinsiz_123",
+  "galinsiz_123",
+  "nq5v39hYFiZ5",
+  {
+    // port: 3306,
+    host: "galinsiz.beget.tech",
+    dialect: "mysql",
+  }
+);
 sequelize
   .authenticate()
   .then(() => {
@@ -77,7 +82,7 @@ const deleteCategory = async (id) => {
 };
 const cahngeCategory = async (id, category_name, imageSrc) => {
   try {
-    console.log(id, category_name, imageSrc, '123124214251241');
+    console.log(id, category_name, imageSrc, "123124214251241");
     const category = await CategoryVacansy.update(
       { category_name: category_name, imageSrc: imageSrc },
       { where: { id: id } }
