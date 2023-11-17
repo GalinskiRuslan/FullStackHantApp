@@ -26,7 +26,7 @@ router.put(
 router.delete(
   "/category",
   roleMiddleware(["admin"]),
-  vacansyCategoryController.deleteCatefory
+  vacansyCategoryController.deleteCategory
 );
 
 module.exports = router;

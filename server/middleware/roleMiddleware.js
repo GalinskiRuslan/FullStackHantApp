@@ -9,7 +9,8 @@ module.exports = function (roles) {
       if (!token) {
         return res.status(401).json({ message: "У вас нет доступа" });
       }
-      const role = jwt.verify(token, "secretASS").role;
+      const role = jwt.verify(token, "secretASS").user.user_role;
+      console.log(role);
       if (roles.includes(role)) {
         return next();
       } else {

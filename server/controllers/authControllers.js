@@ -2,8 +2,8 @@ const jwt = require("jsonwebtoken");
 const { registerUser, findOneUser } = require("../DataBase/index");
 const bcrypt = require("bcryptjs");
 
-const generateAccessToken = (role) => {
-  const payload = { role: role };
+const generateAccessToken = (user) => {
+  const payload = { user: user };
   return jwt.sign(payload, "secretASS", { expiresIn: "24h" });
 };
 
@@ -20,7 +20,7 @@ class authController {
         return res.status(400).json("Неверный пароль, повторите попытку");
       }
       if (validPassword) {
-        const token = generateAccessToken(isUser.user_role);
+        const token = generateAccessToken(isUser);
         return res.status(200).json({ token, user: isUser });
       } else {
         return res.status(400).json("Неверные данные, повторите попытку");
@@ -31,7 +31,15 @@ class authController {
   }
   async registration(req, res) {
     try {
-      const { user_name, password, user_email } = req.body;
+      const {
+        user_name,
+        password,
+        user_email,
+        user_phone,
+        resume,
+        user_role,
+        user_surmane,
+      } = req.body;
       const isUser = await findOneUser(user_email);
       if (isUser) {
         return res
@@ -47,12 +55,21 @@ class authController {
       if (!password) {
         return res.status(400).json("Необходимо указать пароль");
       }
+      if (!user_phone) {
+        return res.status(400).json("Необходимо указать номер телефона");
+      }
       const hashPassword = bcrypt.hashSync(password, 7);
-      registerUser({ user_name, password: hashPassword, user_email }).then(
-        (data) => {
-          return res.status(200).json(data);
-        }
-      );
+      registerUser({
+        user_name,
+        password: hashPassword,
+        user_email,
+        user_phone,
+        resume,
+        user_role,
+        user_surmane,
+      }).then((data) => {
+        return res.status(200).json(data);
+      });
     } catch (error) {
       return res.status(400).json("Ошибка сервера " + error);
     }
@@ -61,7 +78,7 @@ class authController {
     try {
       const token = req.headers.authorization.split(" ")[1];
       const isUser = jwt.verify(token, "secretASS");
-      return res.status(200).json(true);
+      return res.status(200).json(isUser);
     } catch (error) {
       return res.status(400).json("Ошибка сервера " + error);
     }

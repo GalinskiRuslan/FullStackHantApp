@@ -40,6 +40,23 @@ module.exports = function (sequelize) {
         type: DataTypes.STRING,
         allowNull: false,
       },
+      city: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      count_response: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+        defaultValue: 0,
+      },
+      tasks: {
+        type: DataTypes.STRING,
+        allowNull: true,
+      },
+      img: {
+        type: DataTypes.STRING,
+        allowNull: true,
+      },
     },
     {
       timestamps: false,

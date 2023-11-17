@@ -1,0 +1,20 @@
+.notcategory {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+.addcategory {
+  max-width: 220px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.item_block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-evenly;
+}
+.img_categoryeditor {
+  max-width: 120px;
+  width: 100%;
+}

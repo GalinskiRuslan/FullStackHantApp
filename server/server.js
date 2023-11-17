@@ -1,6 +1,5 @@
 const express = require("express");
 const app = express();
-const mysql = require("mysql");
 const auth = require("./routers/authRouter");
 const category = require("./routers/categoryRouter");
 const vacansy = require("./routers/vacansyRouter");

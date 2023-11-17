@@ -16,6 +16,11 @@ module.exports = function (sequelize) {
       category_name: {
         type: DataTypes.STRING,
         allowNull: false,
+        unique: true,
+      },
+      description: {
+        type: DataTypes.STRING,
+        allowNull: true,
       },
     },
     {
