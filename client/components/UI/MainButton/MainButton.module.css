@@ -1,0 +1,18 @@
+.main_button {
+  border-radius: 4px;
+  background: #044cb3;
+  padding: 15px 25px;
+  color: #fff;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.5s;
+}
+.main_button:hover {
+  background: #1e6cda;
+  transition: 0.5s;
+}
+.main_button:disabled {
+  background: #808080;
+}

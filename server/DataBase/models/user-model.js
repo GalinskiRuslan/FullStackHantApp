@@ -14,6 +14,14 @@ module.exports = function (sequelize) {
         type: DataTypes.STRING,
         allowNull: false,
       },
+      user_surmane: {
+        type: DataTypes.STRING,
+        allowNull: true,
+      },
+      user_phone: {
+        type: DataTypes.STRING,
+        allowNull: true,
+      },
       user_role: {
         type: DataTypes.STRING,
         allowNull: false,
@@ -28,7 +36,11 @@ module.exports = function (sequelize) {
         allowNull: false,
         unique: true,
       },
-    },
+      resume: {
+        type: DataTypes.STRING,
+        allowNull: true,
+      },
+    }, 
     {
       timestamps: false,
       tableName: "users",

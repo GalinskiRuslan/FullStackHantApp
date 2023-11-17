@@ -1,0 +1,21 @@
+.base_input {
+  border-radius: 4px;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(60px);
+  padding: 15px 25px;
+  color: #fff;
+  font-size: 22px;
+  backdrop-filter: blur(10px);
+  width: 100%;
+}
+.dark_input {
+  border-radius: 4px;
+  border: 1px solid rgba(19, 15, 15, 0.2);
+  padding: 15px 25px;
+  color: #000;
+  font-size: 22px;
+  backdrop-filter: blur(10px);
+  width: 100%;
+  margin: 10px 0;
+}

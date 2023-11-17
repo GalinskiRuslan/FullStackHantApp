@@ -25,6 +25,8 @@ class Vacansy {
         skills,
         salary,
         expresion,
+        tasks,
+        city,
         categoryId,
       } = req.body;
       if (
@@ -44,7 +46,9 @@ class Vacansy {
         skills,
         salary,
         expresion,
-        categoryId
+        categoryId,
+        tasks,
+        city
       );
       return res.status(200).json(await data);
     } catch (error) {
@@ -63,6 +67,8 @@ class Vacansy {
         salary,
         expresion,
         categoryId,
+        tasks,
+        city,
       } = req.body;
       if (!id) {
         return res.status(400).json("Необходимо указать id Вакансии");
@@ -85,7 +91,9 @@ class Vacansy {
         skills,
         salary,
         expresion,
-        categoryId
+        categoryId,
+        tasks,
+        city
       );
       return res.status(200).json(await data);
     } catch (error) {

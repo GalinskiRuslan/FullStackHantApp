@@ -16,19 +16,37 @@ sequelize
 const Vacansy = require("./models/vacansy-model")(sequelize);
 const CategoryVacansy = require("./models/category-vacansy")(sequelize);
 const Users = require("./models/user-model")(sequelize);
+const ResponseVacansy = require("./models/response-vacansy")(sequelize);
 
 CategoryVacansy.hasMany(Vacansy);
 Vacansy.belongsTo(CategoryVacansy);
 
+Vacansy.hasMany(ResponseVacansy);
+ResponseVacansy.belongsTo(Vacansy);
+
+Users.hasMany(ResponseVacansy);
+ResponseVacansy.belongsTo(Users);
+
 // Регистрация пользователя
 const registerUser = async (data) => {
   try {
-    const { user_name, user_role, password, user_email } = data;
+    const {
+      user_name,
+      user_role,
+      password,
+      user_email,
+      user_phone,
+      resume,
+      user_surmane,
+    } = data;
     const user = await Users.create({
       user_name: user_name,
       user_role: user_role,
       password: password,
       user_email: user_email,
+      user_phone: user_phone,
+      resume: resume,
+      user_surmane: user_surmane,
     });
     return await user;
   } catch (error) {
@@ -54,11 +72,12 @@ const getOneCategory = async (id) => {
     return error;
   }
 };
-const addCategory = async (category_name, background_photo) => {
+const addCategory = async (category_name, background_photo, description) => {
   try {
     const category = await CategoryVacansy.create({
       category_name: category_name,
       imageSrc: background_photo,
+      description: description,
     });
     return "Категория добавлена";
   } catch (error) {
@@ -75,11 +94,13 @@ const deleteCategory = async (id) => {
     return error;
   }
 };
-const cahngeCategory = async (id, category_name, imageSrc) => {
+const cahngeCategory = async (id, category_name, description) => {
   try {
-    console.log(id, category_name, imageSrc, '123124214251241');
     const category = await CategoryVacansy.update(
-      { category_name: category_name, imageSrc: imageSrc },
+      {
+        category_name: category_name,
+        description: description,
+      },
       { where: { id: id } }
     );
     return "Категория изменена";
@@ -96,7 +117,9 @@ const addVacansy = async (
   skills,
   salary,
   expresion,
-  categoryId
+  categoryId,
+  tasks,
+  city
 ) => {
   try {
     const vacansy = await Vacansy.create({
@@ -107,6 +130,8 @@ const addVacansy = async (
       salary: salary,
       expresion: expresion,
       categoryId: categoryId,
+      tasks,
+      city,
     });
     return "Вакансия добавлена";
   } catch (error) {
@@ -135,7 +160,9 @@ const cahngeVacansy = async (
   skills,
   salary,
   expresion,
-  categoryId
+  categoryId,
+  tasks,
+  city
 ) => {
   try {
     const vacansy = await Vacansy.update(
@@ -147,6 +174,8 @@ const cahngeVacansy = async (
         salary: salary,
         expresion: expresion,
         categoryId: categoryId,
+        tasks,
+        city: city,
       },
       { where: { id: id } }
     );
