@@ -72,6 +72,7 @@ export const deleteCategory = createAsyncThunk(
   async function ({ id }: { id: number }, { rejectWithValue }) {
     try {
       const res = await CategoryService.deleteCategory(id);
+      return id;
     } catch (error: any) {
       return rejectWithValue(error);
     }
@@ -98,7 +99,11 @@ export const changeCategory = createAsyncThunk(
         description
       );
 
-      return res.data;
+      return {
+        id,
+        category_name,
+        description,
+      };
     } catch (error: any) {
       return rejectWithValue(error);
     }
@@ -131,6 +136,7 @@ export const CategorySlice = createSlice({
       .addCase(addNewCategory.fulfilled, (state, action) => {
         state.isLoading = false;
         state.error = "";
+        state.category.push(action.payload);
       })
       .addCase(addNewCategory.rejected, (state, action) => {
         state.isLoading = false;
@@ -146,6 +152,38 @@ export const CategorySlice = createSlice({
         state.oneCategory = action.payload;
       })
       .addCase(getOneCategory.rejected, (state, action) => {
+        state.isLoading = false;
+        state.error = action.payload;
+      })
+      .addCase(deleteCategory.pending, (state) => {
+        state.isLoading = true;
+        state.error = "";
+      })
+      .addCase(deleteCategory.fulfilled, (state, action) => {
+        state.isLoading = false;
+        state.error = "";
+        state.category = state.category.filter(
+          (category) => Number(category.id) !== Number(action.payload)
+        );
+      })
+      .addCase(deleteCategory.rejected, (state, action) => {
+        state.isLoading = false;
+        state.error = action.payload;
+      })
+      .addCase(changeCategory.pending, (state) => {
+        state.isLoading = true;
+        state.error = "";
+      })
+      .addCase(changeCategory.fulfilled, (state, action) => {
+        state.isLoading = false;
+        state.error = "";
+        state.category = state.category.map((category) =>
+          Number(category.id) == Number(action.payload.id)
+            ? { ...action.payload, imageSrc: category.imageSrc }
+            : category
+        );
+      })
+      .addCase(changeCategory.rejected, (state, action) => {
         state.isLoading = false;
         state.error = action.payload;
       });

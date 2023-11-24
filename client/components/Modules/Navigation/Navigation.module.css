@@ -181,6 +181,19 @@
     padding: 0 20px;
   }
 }
+@media screen and (max-width: 1350px) {
+  .nav_list li {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .nav_list a {
+    font-size: 14px;
+  }
+  .nav_list li {
+    width: 150px;
+  }
+}
 
 @-webkit-keyframes scale-out-hor-right {
   0% {

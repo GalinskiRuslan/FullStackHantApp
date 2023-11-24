@@ -59,7 +59,7 @@ export const Navigation = () => {
                         <button onClick={() => { !isAuth ? setVisibleModal(true) : openSub() }} className={cl.login_btn}><Image width={50} height={50} alt='user' src='/imgs/icons/icons8-пользователь-100.png' /></button>
                         <div className={visibleSub ? cl.subMenu_user + ' ' + cl.active : cl.subMenu_user}>
                             <button className={cl.logoutbtn} >Кабинет</button><br />
-                            {user.user_role == 'admin' ? <button className={cl.logoutbtn} onClick={() => router.push('/admin')}>Админ панель</button> : <button className={cl.logoutbtn} >Что то ещё</button>}<br />
+                            {user.user_role == 'admin' ? <button className={cl.logoutbtn} onClick={() => router.push('/')}>Админ панель</button> : <button className={cl.logoutbtn} >Что то ещё</button>}<br />
                             <button className={cl.logoutbtn} onClick={() => { dispatch(logout()); setVisibleSub(false); router.push('/') }}>Выйти</button>
                         </div>
                     </ul>

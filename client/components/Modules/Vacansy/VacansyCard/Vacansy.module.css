@@ -1,0 +1,156 @@
+.items {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.items_vacansy {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  justify-content: space-between;
+  margin: 10px 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+.button_delete {
+  background-color: transparent;
+  border: 1px solid red;
+  padding: 6px;
+  border-radius: 6px;
+  color: red;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.button_delete:hover {
+  border: 1px solid #fff;
+  background-color: red;
+  color: #fff;
+  transition: 0.5s;
+}
+.editBtn {
+  max-width: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 40px;
+}
+.button_add {
+  background-color: var(--main-color);
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px 50px;
+  border: none;
+  margin-top: 40px;
+  width: 100%;
+}
+.input_text {
+  width: 100%;
+  padding: 7px;
+  border-radius: 12px;
+  margin-bottom: 7px;
+}
+.input_select {
+  width: 100%;
+}
+.title {
+  font-size: 32px;
+  font-weight: 600;
+}
+.title_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 20px 0; */
+  margin-bottom: 20px;
+}
+.salary {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 16px;
+  border-radius: 999px;
+  background: rgba(192, 197, 206, 0.3);
+}
+.description {
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+.city {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 16px;
+  border-radius: 999px;
+  background: rgba(35, 122, 248, 0.3);
+}
+.bottom_cont {
+  display: flex;
+  gap: 15px;
+}
+.skils {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.skill {
+  padding: 5px 16px;
+  border-radius: 999px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.container {
+  margin: 30px 0;
+  position: relative;
+}
+.experience {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 15px;
+  border-radius: 999px;
+  background: rgba(167, 248, 35, 0.3);
+}
+.deleteBtn {
+  z-index: 100;
+  border: none;
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+  background: transparent;
+}
+.deleteBtn img {
+  width: 100%;
+}
+.nav_btns {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+.navbtns {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 40px;
+}
+.modal_navbtn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 22px;
+  transition: 0.5s;
+}
+.modal_navbtn:hover {
+  color: #044cb3;
+  transition: 0.5s;
+}

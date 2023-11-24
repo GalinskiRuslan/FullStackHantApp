@@ -13,7 +13,9 @@ export default class VacansyService {
     skills: string,
     salary: number,
     expresion: string,
-    categoryId: number
+    categoryId: number,
+    city: string,
+    tasks: string
   ): Promise<AxiosResponse<Vacansy>> {
     return $api.post<Vacansy>("/vacansy", {
       vacansy_name,
@@ -23,6 +25,8 @@ export default class VacansyService {
       salary,
       expresion,
       categoryId,
+      city,
+      tasks,
     });
   }
   static async changeActiveVacansy(
@@ -39,7 +43,8 @@ export default class VacansyService {
     skills: string,
     salary: number,
     expresion: string,
-    categoryId: number
+    categoryId: number,
+    city: string
   ) {
     return $api.put("/vacansy", {
       id,
@@ -50,6 +55,10 @@ export default class VacansyService {
       salary,
       expresion,
       categoryId,
+      city,
     });
+  }
+  static async deleteVacansy(id: number): Promise<AxiosResponse<Vacansy>> {
+    return $api.delete("/vacansy", { data: { id } });
   }
 }

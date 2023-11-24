@@ -4,7 +4,12 @@ export interface Vacansy {
   isActive: boolean;
   description: string;
   skills: string;
-  salary: number;
-  expresion: string;
+  salary: string;
+  experience: string;
   categoryId: number;
+  count_response: number;
+  city: string;
+  tasks: string;
+  img: string;
+  publicDate: any;
 }

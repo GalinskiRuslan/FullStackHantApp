@@ -34,7 +34,7 @@ export const LoginForm = () => {
     else {
         return (
             <div>
-                <form onSubmit={(e) => { e.preventDefault(); dispatch(loginFech({ user_email: email, password: password })); router.push('/admin') }} className={cl.form}>
+                <form onSubmit={(e) => { e.preventDefault(); dispatch(loginFech({ user_email: email, password: password })); }} className={cl.form}>
                     <BaseInput type='text' placeholder='Введите email' value={email} onChange={setEmail} isDark={true} />
                     <BaseInput type='text' placeholder='Введите пароль' value={password} onChange={setPassword} isDark={true} />
                     <MainButton type="submit" buttonText='Войти' disabled={email.length > 0 && password.length > 0 ? false : true} />

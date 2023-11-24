@@ -84,7 +84,7 @@ const addCategory = async (category_name, background_photo, description) => {
       imageSrc: background_photo,
       description: description,
     });
-    return "Категория добавлена";
+    return category;
   } catch (error) {
     console.log(error);
     return error;
@@ -93,7 +93,7 @@ const addCategory = async (category_name, background_photo, description) => {
 const deleteCategory = async (id) => {
   try {
     const category = await CategoryVacansy.destroy({ where: { id: id } });
-    return "Категория удалена";
+    return category;
   } catch (error) {
     console.log(error);
     return error;
@@ -108,7 +108,7 @@ const cahngeCategory = async (id, category_name, description) => {
       },
       { where: { id: id } }
     );
-    return "Категория изменена";
+    return category;
   } catch (error) {
     console.log(error);
     return error;
@@ -138,7 +138,7 @@ const addVacansy = async (
       tasks,
       city,
     });
-    return "Вакансия добавлена";
+    return vacansy;
   } catch (error) {
     console.log(error);
     return error;
@@ -184,7 +184,7 @@ const cahngeVacansy = async (
       },
       { where: { id: id } }
     );
-    return "Вакансия изменена";
+    return vacansy;
   } catch (e) {
     console.log(e);
     return e;
@@ -196,7 +196,7 @@ const changeActiveVacansy = async (id, isActive) => {
       { isActive: isActive },
       { where: { id: id } }
     );
-    return "Вакансия изменена";
+    return vacansy;
   } catch (e) {
     console.log(e);
     return e;
@@ -214,7 +214,7 @@ const getVacansyOnCat = async (id) => {
 const deleteVacansy = async (id) => {
   try {
     const vacansy = await Vacansy.destroy({ where: { id: id } });
-    return "Вакансия удалена";
+    return vacansy;
   } catch (error) {
     console.log(error);
     return error;
