@@ -8,9 +8,10 @@ import { MainButton } from '@/components/UI/MainButton/MainButton';
 import cl from "./VacansyBlock.module.css"
 import Modal from '@/components/UI/Modal/Modal';
 import { BaseInput } from '@/components/UI/BaseInput/BaseInput';
+import { useRouter } from 'next/router';
 
 export const VacansyBlock = (props: any) => {
-    const { lengthArray } = props
+    const { lengthArray, buttonAll } = props
     const dispatch = useDispatch<AppDispatch>();
     const { isLoading, error, allVacansy } = useSelector<any, any>(state => state.vacansy);
     const { category } = useSelector<any, any>(state => state.category);
@@ -26,6 +27,7 @@ export const VacansyBlock = (props: any) => {
     const [isActive, setIsActive] = useState(true);
     const [categoryId, setCategoryId] = useState(-1);
 
+    const router = useRouter();
     useEffect(() => {
         dispatch(getAllVacansy())
     }, [])
@@ -107,7 +109,13 @@ export const VacansyBlock = (props: any) => {
                     </Modal>
                 </div> : <div></div>
             }
+            {buttonAll ?
+                <div className={cl.btn}>
 
+                    <MainButton style={{ maxWidth: "300px" }} onClick={() => {
+                        router.push('/vacansy/all')
+                    }} buttonText="Все вакансии" />
+                </div> : <div></div>}
         </div >
 
     )

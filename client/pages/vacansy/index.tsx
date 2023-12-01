@@ -1,11 +1,12 @@
 import React from 'react'
 import cl from "../../styles/Vacansy.module.css"
-import Layout from './layout'
-import { TopContent } from '@/components/Modules/VacansyPage/TopContent/TopContent'
+import { TopContent } from '@/components/Modules/Vacansy/TopContent/TopContent'
 import { CategoryBlock } from '@/components/Modules/Category/CategoryBlock/Category'
 import { VacansyBlock } from '@/components/Modules/Vacansy/VacansyBlock/VacansyBlock'
 import { MainButton } from '@/components/UI/MainButton/MainButton'
 import { LeadForm } from '@/components/Modules/LeadForm/LeadForm'
+import Layout from './layout'
+
 
 export default function index() {
     return (
@@ -16,10 +17,7 @@ export default function index() {
                 <p className={cl.text}>Мы всегда ищем классных людей в команду, а именно сейчас нам нужны эти специалисты:</p>
                 <div className={cl.category_block}>
                     <CategoryBlock />
-                    <VacansyBlock lengthArray={3} />
-                    <div className={cl.btn}>
-                        <MainButton style={{ maxWidth: "300px" }} buttonText="Все вакансии" />
-                    </div>
+                    <VacansyBlock lengthArray={3} buttonAll={true} />
                 </div>
             </div>
             <LeadForm />

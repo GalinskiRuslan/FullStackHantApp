@@ -104,3 +104,8 @@
 .checkbox_green.focused .checkbox_green_switch:after {
   box-shadow: inset 0px 0px 4px #ff5623;
 }
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}

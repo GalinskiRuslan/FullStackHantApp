@@ -46,7 +46,7 @@
 .secblock {
   max-width: 1660px;
   margin: 0 auto;
-  padding-top: 120px;
+  padding: 120px 20px 0 20px;
 }
 .subtitle {
   color: #000;
@@ -57,4 +57,9 @@
   font-size: 24px;
   font-weight: 400;
   margin: 30px 0;
+}
+.vacansy {
+  max-width: 1660px;
+  margin: 0 auto;
+  padding: 60px 20px;
 }

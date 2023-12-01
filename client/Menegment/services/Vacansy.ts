@@ -6,6 +6,14 @@ export default class VacansyService {
   static async getAllVacansy(): Promise<AxiosResponse<Vacansy[]>> {
     return $api.get<Vacansy[]>("/vacansy");
   }
+  static async getVacancyWithCategory(
+    categoryId: string
+  ): Promise<AxiosResponse<Vacansy[]>> {
+    return $api.get<Vacansy[]>(`/vacansyCat?id=${categoryId}`);
+  }
+  static async getOneVacancy(id: number): Promise<AxiosResponse<Vacansy>> {
+    return $api.get<Vacansy>(`/vacansyOne?id=${id}`);
+  }
   static async addNewVacansy(
     vacansy_name: string,
     isActive: boolean,

@@ -14,7 +14,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="icon" href="/цветной лого прозрачный 1.png" />
         </Head>
-        <main style={{ background: '#ccc', height: '100vh' }} >
+        <main>
             <Navigation />
             {children}
         </main>

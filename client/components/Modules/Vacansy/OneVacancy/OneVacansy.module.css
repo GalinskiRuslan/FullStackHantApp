@@ -1,0 +1,288 @@
+.skils {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.skill {
+  padding: 5px 16px;
+  border-radius: 999px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.city {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 16px;
+  border-radius: 999px;
+  background: rgba(35, 122, 248, 0.3);
+}
+.topContainer {
+  max-width: 1680px;
+  margin: 0 auto;
+  padding: 120px 20px;
+}
+.innerCont {
+  background-color: #fff;
+  padding: 90px 120px;
+  border-radius: 12px;
+}
+.btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  gap: 12px;
+  color: #808080;
+  font-size: 20px;
+  font-weight: 500;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.title {
+  color: #000;
+  font-size: 56px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.salary {
+  color: #000;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 45px;
+}
+.about {
+  background: #fff;
+  width: 100%;
+  /* padding: 90px 120px; */
+  font-size: 24px;
+  font-weight: 400;
+}
+.inner {
+  max-width: 1680px;
+  margin: 0 auto;
+  padding: 120px;
+}
+.subtitle {
+  color: #000;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 45px;
+}
+.text {
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+  margin-bottom: 90px;
+}
+.stack {
+  padding: 12px 20px;
+  background: #dae2f0;
+  border-radius: 999px;
+  transition: 0.5s;
+  cursor: none;
+}
+.stack:hover {
+  background: #afbdd4;
+  transition: 0.5s;
+}
+.list {
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 175%;
+}
+.list li {
+  margin-left: 40px;
+}
+.steps {
+  width: 100%;
+  /* padding: 90px 120px; */
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 45px;
+}
+.stepsCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  position: relative;
+}
+.stepsCard {
+  position: relative;
+  border-radius: 4px;
+  background: #fff;
+  max-width: 420px;
+  width: 100%;
+  padding: 30px;
+  height: 450px;
+}
+.step_num {
+  display: flex;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+  border-radius: 4px;
+  background: #044cb3;
+  max-width: 65px;
+  padding: 7px 21px;
+  margin-bottom: 30px;
+}
+.steptitle {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.steptext {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 130%;
+}
+.steptime {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 999px;
+  background: #dae2f0;
+  display: inline-block;
+}
+.steptime_container {
+  display: flex;
+  position: absolute;
+  bottom: 30px;
+  gap: 15px;
+}
+.whatweevaluate {
+  display: flex;
+  margin-top: 90px;
+  background: #044cb3;
+  border-radius: 4px;
+  padding: 60px;
+  position: relative;
+}
+.evaluate_right {
+  display: flex;
+  gap: 10px;
+  /* position: relative; */
+  margin-top: -50px;
+}
+.evaluate_title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.evaluate_left {
+  width: 37%;
+}
+.evaluate_text {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+}
+.evaluate_right_item {
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.25);
+  display: flex;
+  flex-direction: column;
+  padding: 80px 125px;
+  position: absolute;
+  right: 411px;
+}
+.evaluate_right_item2 {
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.25);
+  display: flex;
+  flex-direction: column;
+  padding: 80px 125px;
+  position: absolute;
+  right: 10px;
+}
+.evaluate_right_item_procent {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.evaluate_right_item_text {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+}
+.adviсe {
+  margin-top: 90px;
+}
+.adviсe_first {
+  display: flex;
+  gap: 30px;
+}
+.advice_first_card {
+  width: 50%;
+  border-radius: 4px;
+  background: #fff;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.advice_sec_card {
+  width: 35%;
+  border-radius: 4px;
+  background: #fff;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.advice_list {
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 175%;
+}
+@media screen and (max-width: 1660px) {
+  .innerCont {
+    padding: 60px;
+  }
+  .inner {
+    padding: 60px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .innerCont {
+    padding: 30px;
+  }
+  .inner {
+    padding: 30px;
+  }
+  .stepsCards {
+    justify-content: center;
+  }
+  .whatweevaluate {
+    flex-direction: column;
+    text-align: center;
+  }
+  .evaluate_right_item {
+    position: relative;
+    right: 0;
+  }
+  .evaluate_right_item2 {
+    position: relative;
+    right: 0;
+  }
+  .evaluate_right {
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .evaluate_left {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .adviсe_first {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .advice_sec_card {
+    width: 50%;
+  }
+}

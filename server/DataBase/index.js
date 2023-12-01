@@ -1,12 +1,16 @@
 const Sequelize = require("sequelize");
 
 const sequelize = new Sequelize(
+  /*  "galinsiz_123",
   "galinsiz_123",
-  "galinsiz_123",
-  "nq5v39hYFiZ5",
+  "nq5v39hYFiZ5", */
+  "hunt",
+  "root",
+  "1234",
   {
-    // port: 3306,
-    host: "galinsiz.beget.tech",
+    port: 3306,
+    // host: "galinsiz.beget.tech",
+    host: "localhost",
     dialect: "mysql",
   }
 );
@@ -28,9 +32,6 @@ Vacansy.belongsTo(CategoryVacansy);
 
 Vacansy.hasMany(ResponseVacansy);
 ResponseVacansy.belongsTo(Vacansy);
-
-Users.hasMany(ResponseVacansy);
-ResponseVacansy.belongsTo(Users);
 
 // Регистрация пользователя
 const registerUser = async (data) => {
@@ -220,6 +221,80 @@ const deleteVacansy = async (id) => {
     return error;
   }
 };
+// Отклики на вакансии
+
+const newResponse = async (
+  user_name,
+  user_phone,
+  user_email,
+  vacansy_id,
+  resume
+) => {
+  try {
+    const response = await ResponseVacansy.create({
+      user_name,
+      user_phone,
+      user_email,
+      vacansyId: vacansy_id,
+      resume,
+    });
+    return response;
+  } catch (error) {
+    console.log(error);
+    return error;
+  }
+};
+const newResponseWithoutVacansy = async (
+  user_name,
+  user_phone,
+  user_email,
+  resume,
+  vacansy_name,
+  message
+) => {
+  try {
+    const response = await ResponseVacansy.create({
+      user_name,
+      user_phone,
+      user_email,
+      resume,
+      vacancy_name: vacansy_name,
+      message,
+    });
+    return response;
+  } catch (error) {
+    console.log(error);
+    return error;
+  }
+};
+const getResponseWithNumberAndId = async (id_vacansy, number) => {
+  try {
+    const data = await ResponseVacansy.findOne({
+      where: { vacansyId: id_vacansy, user_phone: number },
+    });
+
+    return data;
+  } catch (error) {}
+};
+const getResponseWithNumber = async (number) => {
+  try {
+    const data = await ResponseVacansy.findOne({
+      where: { user_phone: number },
+    });
+
+    return data;
+  } catch (error) {}
+};
+const getAllResponse = async () => {
+  try {
+    const data = await ResponseVacansy.findAll();
+    return await data;
+  } catch (error) {
+    console.log(error);
+    return error;
+  }
+};
+
 sequelize
   .sync()
   .then(() => {
@@ -245,4 +320,9 @@ module.exports = {
   changeActiveVacansy,
   getVacansyOnCat,
   deleteVacansy,
+  newResponse,
+  newResponseWithoutVacansy,
+  getResponseWithNumberAndId,
+  getResponseWithNumber,
+  getAllResponse,
 };

@@ -1,4 +1,5 @@
-import Layout from '../../layout'
+import { OneVacansy } from '@/components/Modules/Vacansy/OneVacancy/OneVacansy'
+import Layout from '../all/layout'
 import { CategoryPage } from '@/components/Modules/Category/CategoryPage/CategoryPage'
 
 
@@ -6,7 +7,7 @@ import { CategoryPage } from '@/components/Modules/Category/CategoryPage/Categor
 export default function Page() {
     return (
         <Layout>
-            <CategoryPage />
+            <OneVacansy />
         </Layout>
     )
 }

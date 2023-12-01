@@ -5,12 +5,14 @@ import { type } from "os";
 import LoginSlice from "./Fethers/LoginSlice";
 import CategorySlice from "./Fethers/CategorySlice";
 import VacansySlice from "./Fethers/VacansySlice";
+import ResponseSlice from "./Fethers/ResponseSlice";
 
 export const store = configureStore({
   reducer: {
     login: LoginSlice,
     category: CategorySlice,
     vacansy: VacansySlice,
+    response: ResponseSlice,
   },
 });
 

@@ -20,7 +20,12 @@ class Category {
   }
   async addCategory(req, res) {
     try {
-      console.log(req.body);
+      console.log(req.file);
+      if (!req.file) {
+        return res
+          .status(400)
+          .json("Необходимо загрузить изображение категории");
+      }
       const data = await addCategory(
         req.body.category_name,
         req.file.path ? `http://${req.get("host")}/${req.file.path}` : "",

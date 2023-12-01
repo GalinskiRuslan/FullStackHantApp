@@ -1,0 +1,17 @@
+.container {
+  max-width: 1680px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 20px;
+}
+.title {
+  font-size: 56px;
+  font-weight: 600;
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+.text {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}

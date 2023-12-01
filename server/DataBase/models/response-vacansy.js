@@ -15,8 +15,29 @@ module.exports = function (sequelize) {
         allowNull: false,
         defaultValue: DataTypes.NOW,
       },
+      vacancy_name: {
+        type: DataTypes.STRING,
+        allowNull: true,
+      },
+      user_name: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      user_phone: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      user_email: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      message: {
+        type: DataTypes.STRING,
+        allowNull: true,
+      },
       resume: {
         type: DataTypes.STRING,
+        allowNull: true,
       },
     },
     {
