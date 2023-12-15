@@ -55,4 +55,7 @@ export default class ResponseService {
       }
     );
   }
+  static async deleteResponse(id: number): Promise<AxiosResponse<any>> {
+    return await $api.delete("/response", { data: { id } });
+  }
 }

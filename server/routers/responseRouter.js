@@ -2,10 +2,9 @@ const Router = require("express");
 const router = new Router();
 const upload = require("../middleware/uploadResume");
 const responseController = require("../controllers/responseController");
+const roleMiddleware = require("../middleware/roleMiddleware");
 
 router.get("/response", responseController.getAllResponse);
-
-// router.get("/categoryOne", vacansyCategoryController.getOneCategory);
 
 router.post(
   "/response",
@@ -17,18 +16,10 @@ router.post(
   upload.single("resume"),
   responseController.sendResponseAnonym
 );
-/* 
-router.put(
-  "/category",
-  roleMiddleware(["admin"]),
-  upload.single("imageSrc"),
-  vacansyCategoryController.updateCategory
-);
-
 router.delete(
-  "/category",
+  "/response",
   roleMiddleware(["admin"]),
-  vacansyCategoryController.deleteCategory
-); */
+  responseController.deleteResponse
+);
 
 module.exports = router;

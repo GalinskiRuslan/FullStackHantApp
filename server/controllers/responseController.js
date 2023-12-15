@@ -4,6 +4,7 @@ const {
   newResponse,
   getResponseWithNumber,
   getAllResponse,
+  deleteResponse,
 } = require("../DataBase/index");
 const multiparty = require("multiparty");
 const MailService = require("../services/mail-service");
@@ -94,6 +95,18 @@ class responseController {
       return res.status(200).json(response);
     } catch (error) {
       console.log(error);
+      return res.status(400).json("Ошибка сервера " + error);
+    }
+  }
+  async deleteResponse(req, res) {
+    const { id } = req.body;
+    if (!id) {
+      return res.status(400).json("Необходимо указать id отклика");
+    }
+    try {
+      const response = await deleteResponse(id);
+      return res.status(200).json(response);
+    } catch (error) {
       return res.status(400).json("Ошибка сервера " + error);
     }
   }

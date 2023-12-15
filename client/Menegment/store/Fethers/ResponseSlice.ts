@@ -86,6 +86,18 @@ export const sendAnonymResponse = createAsyncThunk(
     }
   }
 );
+export const deleteResponse = createAsyncThunk(
+  "deleteResponse",
+  async function (id: number, { rejectWithValue, dispatch }) {
+    try {
+      const res = await ResponseService.deleteResponse(id);
+      dispatch(getAllResponse());
+      return res.data;
+    } catch (error) {
+      return error;
+    }
+  }
+);
 
 export const ResponseSlice = createSlice({
   name: "ResponseSlice",

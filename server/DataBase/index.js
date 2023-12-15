@@ -294,6 +294,15 @@ const getAllResponse = async () => {
     return error;
   }
 };
+const deleteResponse = async (id) => {
+  try {
+    const response = await ResponseVacansy.destroy({ where: { id: id } });
+    return response;
+  } catch (error) {
+    console.log(error);
+    return error;
+  }
+};
 
 sequelize
   .sync()
@@ -325,4 +334,5 @@ module.exports = {
   getResponseWithNumberAndId,
   getResponseWithNumber,
   getAllResponse,
+  deleteResponse,
 };
