@@ -1,0 +1,124 @@
+.grandContainer {
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  margin-top: 80px;
+}
+.photoContainer {
+  /* max-width: 1200px; */
+  transform: rotate(30deg);
+  position: absolute;
+  bottom: -30%;
+  right: -20%;
+}
+.btn {
+  border-radius: 4px;
+  background: #044cb3;
+  padding: 18px 54px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+}
+.whiteBack {
+  background: #fff;
+  position: absolute;
+  right: 0;
+  height: 760px;
+  width: 40%;
+  overflow: hidden;
+}
+.secFignya {
+  position: absolute;
+  transform: rotate(180deg);
+  z-index: 999;
+  left: 0;
+  top: -80%;
+}
+.treeFignya {
+  position: absolute;
+  left: 0;
+  top: 77%;
+}
+.first {
+  position: relative;
+  max-width: 1260px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.firstInner {
+  display: flex;
+  gap: 10px;
+  animation: goToLeftAndBack 18s ease 18s infinite normal running;
+}
+.aboutText {
+  max-width: 40%;
+  position: absolute;
+  top: 10%;
+  margin-left: 140px;
+}
+.aboutText h6 {
+  color: #000;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.aboutText p {
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.second {
+  position: relative;
+  max-width: 1260px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.secondInner {
+  display: flex;
+  gap: 10px;
+  /* animation-duration: 12s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite; */
+  animation: goToRightAndBack 18s ease 18s infinite normal running;
+}
+.tree {
+  position: relative;
+  max-width: 1260px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.treeInner {
+  display: flex;
+  gap: 10px;
+  animation: goToLeftAndBack 18s ease 18s infinite normal running;
+}
+@keyframes goToLeftAndBack {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-2040px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes goToRightAndBack {
+  0% {
+    transform: translateX(-2040px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-2040px);
+  }
+}

@@ -6,6 +6,13 @@
   padding: 6rem;
   min-height: 100vh;
 }
+.topMain {
+  background-image: url("/imgs/ebbf2c5f006fe08a436d77993d6bb939.gif");
+  height: 1000px;
+  max-width: 1920px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
 
 .description {
   display: inherit;
@@ -97,7 +104,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -106,6 +113,12 @@
 
 .logo {
   position: relative;
+}
+.topcontcont {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
 }
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {

@@ -14,6 +14,10 @@ export const store = configureStore({
     vacansy: VacansySlice,
     response: ResponseSlice,
   },
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware({
+      serializableCheck: false,
+    }),
 });
 
 export type RootState = ReturnType<typeof store.getState>;
