@@ -4,9 +4,12 @@ const sequelize = new Sequelize(
   /*  "galinsiz_123",
   "galinsiz_123",
   "nq5v39hYFiZ5", */
-  "hunt",
+  // "hunt",
+  // "root",
+  // "1234",
+  "BigR",
   "root",
-  "1234",
+  "gal4815162342war",
   {
     port: 3306,
     // host: "galinsiz.beget.tech",
