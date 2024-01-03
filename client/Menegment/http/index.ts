@@ -2,7 +2,7 @@ import axios from "axios";
 
 const $api = axios.create({
   withCredentials: true,
-  baseURL: "http://localhost:3333",
+  baseURL: "http://localhost:6969",
 });
 
 $api.interceptors.request.use((config) => {
