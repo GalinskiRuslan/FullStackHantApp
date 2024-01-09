@@ -1,7 +1,45 @@
 .container {
+  position: relative;
+  z-index: 100;
   max-width: 1920px;
   margin: 0 auto;
-  margin-top: 600px;
+  margin-top: 700px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background-image: url(/imgs/bg.png);
+  background-repeat: no-repeat;
+  padding: 200px 40px 300px 40px;
+}
+.flags {
+  display: flex;
+  gap: 40px;
+  margin: 40px 0;
+}
+.bottomLine {
+  height: 1px;
+  background: linear-gradient(116deg, #044cb3 0%, #136be9 49.48%, #042a5f 100%);
+}
+.activeFlag {
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+.title {
+  color: #000;
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 90px;
+}
+.countTitle {
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 160%;
+  margin: 30px 0;
+}
+.countDescr {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
 }

@@ -1,0 +1,163 @@
+.arrows {
+  display: flex;
+  gap: 50px;
+  justify-content: end;
+}
+.indicators {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.indicator_item {
+  border-radius: 32px;
+  background: #f0f4f9;
+  width: 100%;
+  height: 6px;
+  transition: 0.5s;
+}
+.indicator_item.active {
+  background: #044cb3;
+  transition: 0.5s;
+}
+.arrow {
+  cursor: pointer;
+}
+.imgs {
+  max-width: 470px;
+  max-height: 276px;
+}
+.container {
+  position: relative;
+  min-height: 600px;
+  overflow: hidden;
+  width: 100%;
+}
+.photoItemToLeft {
+  width: 100%;
+  transform: translateX(-1200px);
+  min-height: 600px;
+  transition: 0.8s;
+  position: absolute;
+}
+.photoItem.active {
+  transform: translateX(0);
+  transition: 0.8s;
+  min-height: 600px;
+}
+.photoItemRight {
+  transform: translateX(1200px);
+  transition: 0.8s;
+  min-height: 600px;
+  position: absolute;
+}
+.first {
+  position: absolute;
+  z-index: 99;
+  animation: 10s infinite alternate animation;
+}
+.second {
+  position: absolute;
+  z-index: 100;
+  right: 0;
+  top: 5%;
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.15);
+  animation: 10s infinite alternate animation2;
+}
+.third {
+  position: absolute;
+  z-index: 98;
+  right: 5%;
+  bottom: 5%;
+  animation: 10s infinite alternate animation3;
+}
+.fourth {
+  position: absolute;
+  z-index: 97;
+  animation: 10s infinite alternate animation4;
+}
+@keyframes animation {
+  0% {
+    transform: scale(1);
+    left: 0;
+    top: 0;
+  }
+  25% {
+    transform: scale(1.2);
+    left: 43%;
+    top: 0;
+  }
+  50% {
+    transform: scale(1.1);
+    left: 45%;
+    top: 50%;
+  }
+  100% {
+    top: 50%;
+    left: 0%;
+  }
+}
+@keyframes animation3 {
+  0% {
+    right: 5%;
+    bottom: 5%;
+  }
+  25% {
+    right: 40%;
+    bottom: 50%;
+  }
+  50% {
+    right: 45%;
+    bottom: 5%;
+  }
+  100% {
+    right: 5%;
+    bottom: 40%;
+  }
+}
+@keyframes animation2 {
+  0% {
+    transform: scale(1);
+    right: 0;
+    top: 5%;
+  }
+  25% {
+    transform: scale(0.8);
+    right: 45%;
+    top: 50%;
+  }
+  50% {
+    transform: scale(1.1);
+    right: 40%;
+    top: 5%;
+  }
+  100% {
+    transform: scale(1);
+    right: 0%;
+    top: 50%;
+  }
+}
+
+@keyframes animation4 {
+  0% {
+    transform: scale(1);
+    left: 5%;
+    bottom: 10%;
+  }
+  25% {
+    transform: scale(1.2);
+    left: 30%;
+    bottom: 30%;
+  }
+  50% {
+    transform: scale(1.1);
+    left: 45%;
+    bottom: 50%;
+    z-index: 99;
+  }
+  100% {
+    transform: scale(1);
+    left: 30%;
+    bottom: 30%;
+  }
+}

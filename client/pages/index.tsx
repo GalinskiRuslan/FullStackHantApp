@@ -6,6 +6,8 @@ import { Collage } from '@/components/Modules/Collage/Collage'
 import topVideo from '../public/ebbf2c5f006fe08a436d77993d6bb939.gif'
 import { Advantages } from '@/components/Modules/Advantages/Advantages'
 import { Map } from '@/components/Modules/Map/Map'
+import { Team } from '@/components/Modules/Team/Team'
+import { WeProjects } from '@/components/Modules/WeProjects/WeProjects'
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
         <Collage />
         <Advantages />
         <Map />
+        <Team />
+        <WeProjects />
       </Layout>
     </>
   )

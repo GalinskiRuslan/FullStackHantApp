@@ -34,7 +34,7 @@
 .secFignya {
   position: absolute;
   transform: rotate(180deg);
-  z-index: 999;
+  z-index: 100;
   left: 0;
   top: -80%;
 }
