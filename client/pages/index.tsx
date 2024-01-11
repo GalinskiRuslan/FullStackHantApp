@@ -8,6 +8,8 @@ import { Advantages } from '@/components/Modules/Advantages/Advantages'
 import { Map } from '@/components/Modules/Map/Map'
 import { Team } from '@/components/Modules/Team/Team'
 import { WeProjects } from '@/components/Modules/WeProjects/WeProjects'
+import { Contacts } from '@/components/Modules/Contacts/Contacts'
+import { Footer } from '@/components/Modules/Footer/Footer'
 
 export default function Home() {
   return (
@@ -21,6 +23,7 @@ export default function Home() {
         <Map />
         <Team />
         <WeProjects />
+        <Contacts />
       </Layout>
     </>
   )

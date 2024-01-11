@@ -2634,9 +2634,9 @@ export const Map = () => {
                             width="57.6534"
                             height="57.2234"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -2668,9 +2668,9 @@ export const Map = () => {
                             width="38.8884"
                             height="35.3418"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -2702,9 +2702,9 @@ export const Map = () => {
                             width="42.9124"
                             height="45.4252"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -2736,9 +2736,9 @@ export const Map = () => {
                             width="13.4807"
                             height="14.6766"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -2770,9 +2770,9 @@ export const Map = () => {
                             width="17.012"
                             height="17.0367"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -2804,9 +2804,9 @@ export const Map = () => {
                             width="70.7746"
                             height="63.0953"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -2838,9 +2838,9 @@ export const Map = () => {
                             width="53.7365"
                             height="56.0435"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -2872,9 +2872,9 @@ export const Map = () => {
                             width="53.0029"
                             height="47.3383"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -2906,9 +2906,9 @@ export const Map = () => {
                             width="15.7148"
                             height="14.6105"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -2940,9 +2940,9 @@ export const Map = () => {
                             width="48.3786"
                             height="61.9487"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -2974,9 +2974,9 @@ export const Map = () => {
                             width="55.1467"
                             height="45.5416"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3008,9 +3008,9 @@ export const Map = () => {
                             width="24.4242"
                             height="39.3679"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3042,9 +3042,9 @@ export const Map = () => {
                             width="89.2647"
                             height="85.8823"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3076,9 +3076,9 @@ export const Map = () => {
                             width="67.0476"
                             height="65.0639"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3110,9 +3110,9 @@ export const Map = () => {
                             width="19.6138"
                             height="11.6044"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3144,9 +3144,9 @@ export const Map = () => {
                             width="30.3992"
                             height="25.5925"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3178,9 +3178,9 @@ export const Map = () => {
                             width="19.1516"
                             height="14.7269"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3212,9 +3212,9 @@ export const Map = () => {
                             width="56.0305"
                             height="41.5943"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3246,9 +3246,9 @@ export const Map = () => {
                             width="54.0991"
                             height="45.658"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3280,9 +3280,9 @@ export const Map = () => {
                             width="19.7313"
                             height="32.1696"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3314,9 +3314,9 @@ export const Map = () => {
                             width="15.4983"
                             height="28.4504"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3348,9 +3348,9 @@ export const Map = () => {
                             width="37.128"
                             height="53.056"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3382,9 +3382,9 @@ export const Map = () => {
                             width="31.9637"
                             height="32.4613"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3416,9 +3416,9 @@ export const Map = () => {
                             width="24.8011"
                             height="33.3297"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3450,9 +3450,9 @@ export const Map = () => {
                             width="37.3109"
                             height="30.0146"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3484,9 +3484,9 @@ export const Map = () => {
                             width="24.5256"
                             height="23.8073"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3518,9 +3518,9 @@ export const Map = () => {
                             width="19.4697"
                             height="20.6369"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3552,9 +3552,9 @@ export const Map = () => {
                             width="40.8375"
                             height="34.7032"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3586,9 +3586,9 @@ export const Map = () => {
                             width="55.587"
                             height="59.8766"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3620,9 +3620,9 @@ export const Map = () => {
                             width="73.2174"
                             height="68.562"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3654,9 +3654,9 @@ export const Map = () => {
                             width="40.0924"
                             height="29.9053"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3688,9 +3688,9 @@ export const Map = () => {
                             width="68.2292"
                             height="55.1857"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3722,9 +3722,9 @@ export const Map = () => {
                             width="47.0811"
                             height="72.7413"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3756,9 +3756,9 @@ export const Map = () => {
                             width="49.8831"
                             height="50.7288"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3790,9 +3790,9 @@ export const Map = () => {
                             width="29.6067"
                             height="32.6406"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3824,9 +3824,9 @@ export const Map = () => {
                             width="16.4213"
                             height="13.8062"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3858,9 +3858,9 @@ export const Map = () => {
                             width="35.5718"
                             height="42.5745"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3892,9 +3892,9 @@ export const Map = () => {
                             width="71.8664"
                             height="87.4471"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3926,9 +3926,9 @@ export const Map = () => {
                             width="15.0033"
                             height="15.694"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3960,9 +3960,9 @@ export const Map = () => {
                             width="34.1378"
                             height="30.6867"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -3994,9 +3994,9 @@ export const Map = () => {
                             width="65.9762"
                             height="53.1937"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4028,9 +4028,9 @@ export const Map = () => {
                             width="13.6304"
                             height="15.401"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4062,9 +4062,9 @@ export const Map = () => {
                             width="35.2022"
                             height="29.594"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4096,9 +4096,9 @@ export const Map = () => {
                             width="21.9571"
                             height="26.3174"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4130,9 +4130,9 @@ export const Map = () => {
                             width="24.54"
                             height="30.1191"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4164,9 +4164,9 @@ export const Map = () => {
                             width="116.3"
                             height="121.989"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4198,9 +4198,9 @@ export const Map = () => {
                             width="130.32"
                             height="60.3473"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4232,9 +4232,9 @@ export const Map = () => {
                             width="10.2634"
                             height="13.7193"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4266,9 +4266,9 @@ export const Map = () => {
                             width="13.9241"
                             height="24.5956"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4300,9 +4300,9 @@ export const Map = () => {
                             width="24.7012"
                             height="26.3224"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4334,9 +4334,9 @@ export const Map = () => {
                             width="50.6314"
                             height="26.1003"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4368,9 +4368,9 @@ export const Map = () => {
                             width="34.8972"
                             height="20.0398"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4402,9 +4402,9 @@ export const Map = () => {
                             width="80.767"
                             height="36.7217"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4436,9 +4436,9 @@ export const Map = () => {
                             width="17.1772"
                             height="16.7837"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4470,9 +4470,9 @@ export const Map = () => {
                             width="35.1188"
                             height="33.0697"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4504,9 +4504,9 @@ export const Map = () => {
                             width="37.6577"
                             height="24.8731"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4538,9 +4538,9 @@ export const Map = () => {
                             width="41.6036"
                             height="80.9581"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4572,9 +4572,9 @@ export const Map = () => {
                             width="19.6751"
                             height="14.5693"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4606,9 +4606,9 @@ export const Map = () => {
                             width="36.4176"
                             height="67.2091"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4640,9 +4640,9 @@ export const Map = () => {
                             width="29.9465"
                             height="25.2111"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4674,9 +4674,9 @@ export const Map = () => {
                             width="36.9504"
                             height="42.8938"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4708,9 +4708,9 @@ export const Map = () => {
                             width="39.117"
                             height="67.096"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4742,9 +4742,9 @@ export const Map = () => {
                             width="45.2047"
                             height="38.3792"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4776,9 +4776,9 @@ export const Map = () => {
                             width="22.0711"
                             height="21.4876"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4810,9 +4810,9 @@ export const Map = () => {
                             width="29.0786"
                             height="26.3775"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4844,9 +4844,9 @@ export const Map = () => {
                             width="15.4132"
                             height="22.5402"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4878,9 +4878,9 @@ export const Map = () => {
                             width="36.8773"
                             height="21.2493"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4912,9 +4912,9 @@ export const Map = () => {
                             width="33.3358"
                             height="22.3529"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4946,9 +4946,9 @@ export const Map = () => {
                             width="32.2852"
                             height="21.0099"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -4980,9 +4980,9 @@ export const Map = () => {
                             width="31.0799"
                             height="17.8918"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5014,9 +5014,9 @@ export const Map = () => {
                             width="21.219"
                             height="31.9673"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5048,9 +5048,9 @@ export const Map = () => {
                             width="24.3163"
                             height="22.2811"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5082,9 +5082,9 @@ export const Map = () => {
                             width="10.8386"
                             height="12.0746"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5116,9 +5116,9 @@ export const Map = () => {
                             width="23.3306"
                             height="18.6722"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5150,9 +5150,9 @@ export const Map = () => {
                             width="43.2659"
                             height="31.1101"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5184,9 +5184,9 @@ export const Map = () => {
                             width="20.3285"
                             height="23.2252"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5218,9 +5218,9 @@ export const Map = () => {
                             width="32.5091"
                             height="21.5843"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5252,9 +5252,9 @@ export const Map = () => {
                             width="18.6934"
                             height="15.7519"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5286,9 +5286,9 @@ export const Map = () => {
                             width="78.2199"
                             height="48.7795"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5320,9 +5320,9 @@ export const Map = () => {
                             width="44.634"
                             height="34.1764"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5354,9 +5354,9 @@ export const Map = () => {
                             width="36.5296"
                             height="21.7849"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5388,9 +5388,9 @@ export const Map = () => {
                             width="30.5755"
                             height="21.9219"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5422,9 +5422,9 @@ export const Map = () => {
                             width="25.7135"
                             height="17.472"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5456,9 +5456,9 @@ export const Map = () => {
                             width="42.7682"
                             height="47.1087"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5490,9 +5490,9 @@ export const Map = () => {
                             width="48.9557"
                             height="72.6911"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5524,9 +5524,9 @@ export const Map = () => {
                             width="90.0661"
                             height="73.8733"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5558,9 +5558,9 @@ export const Map = () => {
                             width="39.3602"
                             height="43.1542"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5592,9 +5592,9 @@ export const Map = () => {
                             width="12.3849"
                             height="14.3937"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5626,9 +5626,9 @@ export const Map = () => {
                             width="26.806"
                             height="23.1774"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5660,9 +5660,9 @@ export const Map = () => {
                             width="83.4072"
                             height="31.1208"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5694,9 +5694,9 @@ export const Map = () => {
                             width="13.2852"
                             height="11.4633"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5728,9 +5728,9 @@ export const Map = () => {
                             width="46.4014"
                             height="45.2141"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5762,9 +5762,9 @@ export const Map = () => {
                             width="15.8478"
                             height="15.2697"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5796,9 +5796,9 @@ export const Map = () => {
                             width="64.283"
                             height="55.5027"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5830,9 +5830,9 @@ export const Map = () => {
                             width="17.2909"
                             height="13.2291"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5864,9 +5864,9 @@ export const Map = () => {
                             width="32.1893"
                             height="20.785"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5898,9 +5898,9 @@ export const Map = () => {
                             width="127.362"
                             height="82.8254"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5932,9 +5932,9 @@ export const Map = () => {
                             width="24.8532"
                             height="24.3977"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -5966,9 +5966,9 @@ export const Map = () => {
                             width="13.3719"
                             height="18.5847"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6000,9 +6000,9 @@ export const Map = () => {
                             width="19.4506"
                             height="17.239"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6034,9 +6034,9 @@ export const Map = () => {
                             width="21.4779"
                             height="16.1711"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6068,9 +6068,9 @@ export const Map = () => {
                             width="24.6696"
                             height="25.2126"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6102,9 +6102,9 @@ export const Map = () => {
                             width="161.844"
                             height="166.391"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6136,9 +6136,9 @@ export const Map = () => {
                             width="27.6327"
                             height="28.7562"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6170,9 +6170,9 @@ export const Map = () => {
                             width="86.361"
                             height="162.267"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6204,9 +6204,9 @@ export const Map = () => {
                             width="42.0207"
                             height="183.099"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6238,9 +6238,9 @@ export const Map = () => {
                             width="41.9066"
                             height="42.3226"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6272,9 +6272,9 @@ export const Map = () => {
                             width="20.8569"
                             height="18.6932"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6306,9 +6306,9 @@ export const Map = () => {
                             width="30.9893"
                             height="17.9516"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6340,9 +6340,9 @@ export const Map = () => {
                             width="54.5723"
                             height="73.702"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6374,9 +6374,9 @@ export const Map = () => {
                             width="55.4412"
                             height="61.1524"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6408,9 +6408,9 @@ export const Map = () => {
                             width="57.6735"
                             height="80.9912"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6442,9 +6442,9 @@ export const Map = () => {
                             width="61.7779"
                             height="53.1647"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6476,9 +6476,9 @@ export const Map = () => {
                             width="24.3534"
                             height="25.3631"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6510,9 +6510,9 @@ export const Map = () => {
                             width="26.8696"
                             height="36.3454"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6544,9 +6544,9 @@ export const Map = () => {
                             width="20.5172"
                             height="22.78"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6578,9 +6578,9 @@ export const Map = () => {
                             width="48.1815"
                             height="21.2379"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6612,9 +6612,9 @@ export const Map = () => {
                             width="16.2699"
                             height="10.9009"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6646,9 +6646,9 @@ export const Map = () => {
                             width="14.8537"
                             height="11.1343"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6680,9 +6680,9 @@ export const Map = () => {
                             width="20.3339"
                             height="13.2174"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6714,9 +6714,9 @@ export const Map = () => {
                             width="71.5746"
                             height="33.7335"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6748,9 +6748,9 @@ export const Map = () => {
                             width="246.245"
                             height="185.585"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6782,9 +6782,9 @@ export const Map = () => {
                             width="16.1524"
                             height="13.0957"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6816,9 +6816,9 @@ export const Map = () => {
                             width="353.859"
                             height="273.756"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6850,9 +6850,9 @@ export const Map = () => {
                             width="403.885"
                             height="276.182"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6884,9 +6884,9 @@ export const Map = () => {
                             width="58.262"
                             height="44.3338"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6918,9 +6918,9 @@ export const Map = () => {
                             width="21.3551"
                             height="15.4319"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6952,9 +6952,9 @@ export const Map = () => {
                             width="32.9254"
                             height="39.0186"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -6986,9 +6986,9 @@ export const Map = () => {
                             width="17.2374"
                             height="13.3521"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7020,9 +7020,9 @@ export const Map = () => {
                             width="49.426"
                             height="28.2664"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7054,9 +7054,9 @@ export const Map = () => {
                             width="24.6209"
                             height="27.5457"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7088,9 +7088,9 @@ export const Map = () => {
                             width="46.7848"
                             height="67.1746"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7122,9 +7122,9 @@ export const Map = () => {
                             width="46.7848"
                             height="67.1746"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7156,9 +7156,9 @@ export const Map = () => {
                             width="26.2288"
                             height="25.4225"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7190,9 +7190,9 @@ export const Map = () => {
                             width="56.7372"
                             height="92.0745"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7224,9 +7224,9 @@ export const Map = () => {
                             width="31.6928"
                             height="19.8971"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7258,9 +7258,9 @@ export const Map = () => {
                             width="39.6741"
                             height="46.2204"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7292,9 +7292,9 @@ export const Map = () => {
                             width="29.5995"
                             height="30.1523"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7326,9 +7326,9 @@ export const Map = () => {
                             width="75.8954"
                             height="48.5703"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7360,9 +7360,9 @@ export const Map = () => {
                             width="108.212"
                             height="166.817"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7394,9 +7394,9 @@ export const Map = () => {
                             width="20.3464"
                             height="11.985"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7428,9 +7428,9 @@ export const Map = () => {
                             width="74.2672"
                             height="73.6502"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7462,9 +7462,9 @@ export const Map = () => {
                             width="241.16"
                             height="168.034"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7496,9 +7496,9 @@ export const Map = () => {
                             width="44.4784"
                             height="60.0817"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7530,9 +7530,9 @@ export const Map = () => {
                             width="56.4179"
                             height="39.5787"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7564,9 +7564,9 @@ export const Map = () => {
                             width="16.3705"
                             height="23.1575"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7598,9 +7598,9 @@ export const Map = () => {
                             width="36.3626"
                             height="63.4039"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7632,9 +7632,9 @@ export const Map = () => {
                             width="54.4839"
                             height="35.6212"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7666,9 +7666,9 @@ export const Map = () => {
                             width="16.1246"
                             height="13.2649"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7700,9 +7700,9 @@ export const Map = () => {
                             width="38.6168"
                             height="29.4934"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7734,9 +7734,9 @@ export const Map = () => {
                             width="38.6168"
                             height="29.4934"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7768,9 +7768,9 @@ export const Map = () => {
                             width="166.991"
                             height="149.356"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7802,9 +7802,9 @@ export const Map = () => {
                             width="55.2852"
                             height="65.9948"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7836,9 +7836,9 @@ export const Map = () => {
                             width="17.8317"
                             height="16.2504"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7870,9 +7870,9 @@ export const Map = () => {
                             width="63.2555"
                             height="42.5815"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7904,9 +7904,9 @@ export const Map = () => {
                             width="83.9299"
                             height="72.8982"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7938,9 +7938,9 @@ export const Map = () => {
                             width="167.104"
                             height="82.5449"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -7972,9 +7972,9 @@ export const Map = () => {
                             width="672.758"
                             height="262.598"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -8006,9 +8006,9 @@ export const Map = () => {
                             width="79.5336"
                             height="81.7654"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -8040,9 +8040,9 @@ export const Map = () => {
                             width="14.4685"
                             height="16.5307"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -8074,9 +8074,9 @@ export const Map = () => {
                             width="49.3827"
                             height="74.8936"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -8108,9 +8108,9 @@ export const Map = () => {
                             width="50.5395"
                             height="51.0778"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -8142,9 +8142,9 @@ export const Map = () => {
                             width="20.4101"
                             height="37.8196"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -8176,9 +8176,9 @@ export const Map = () => {
                             width="19.6181"
                             height="16.3023"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -8210,9 +8210,9 @@ export const Map = () => {
                             width="37.9183"
                             height="27.8973"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -8244,9 +8244,9 @@ export const Map = () => {
                             width="11.22"
                             height="14.3354"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -8278,9 +8278,9 @@ export const Map = () => {
                             width="12.0072"
                             height="11.3017"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -8312,9 +8312,9 @@ export const Map = () => {
                             width="21.4025"
                             height="19.3349"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -8346,9 +8346,9 @@ export const Map = () => {
                             width="26.9626"
                             height="24.1196"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -8380,9 +8380,9 @@ export const Map = () => {
                             width="63.6588"
                             height="47.6911"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -8414,9 +8414,9 @@ export const Map = () => {
                             width="72.7541"
                             height="66.3312"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -8448,9 +8448,9 @@ export const Map = () => {
                             width="186.378"
                             height="71.214"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -8482,9 +8482,9 @@ export const Map = () => {
                             width="20.8753"
                             height="12.7858"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -8516,9 +8516,9 @@ export const Map = () => {
                             width="52.5874"
                             height="56.9799"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -8550,9 +8550,9 @@ export const Map = () => {
                             width="13.0604"
                             height="14.6134"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"
@@ -8584,9 +8584,9 @@ export const Map = () => {
                             width="23.8428"
                             height="27.6405"
                             filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
+                            
                         >
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                             <feColorMatrix
                                 in="SourceAlpha"
                                 type="matrix"

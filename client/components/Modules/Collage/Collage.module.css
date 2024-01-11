@@ -52,7 +52,7 @@
 .firstInner {
   display: flex;
   gap: 10px;
-  animation: goToLeftAndBack 18s ease 18s infinite normal running;
+  animation: goToLeftAndBack 22s ease infinite normal running;
 }
 .aboutText {
   max-width: 40%;
@@ -86,7 +86,7 @@
   /* animation-duration: 12s;
   animation-delay: 4s;
   animation-iteration-count: infinite; */
-  animation: goToRightAndBack 18s ease 18s infinite normal running;
+  animation: goToRightAndBack 22s ease infinite normal running;
 }
 .tree {
   position: relative;
@@ -98,7 +98,7 @@
 .treeInner {
   display: flex;
   gap: 10px;
-  animation: goToLeftAndBack 18s ease 18s infinite normal running;
+  animation: goToLeftAndBack 22s ease infinite normal running;
 }
 @keyframes goToLeftAndBack {
   0% {
